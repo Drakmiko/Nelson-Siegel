@@ -1,0 +1,5 @@
+For many investors, estimates of the term structure of interest rates are essential.
+There have been numerous estimation methods such as the bootstrap. 
+In our case, we are using the Nelson-Siegel model. 
+Our function takes 4 parameters and we must fit these parameters with the goal of minimizing the errors 
+between our observed yields and volatility and the function’s yield and volatility through the sum of least squares method.
